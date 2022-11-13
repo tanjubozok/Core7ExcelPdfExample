@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Export Excel";
+}
+
+<p>
+    <form asp-controller="Excel" asp-action="ExportExcel" asp-antiforgery="true" autocomplete="off" method="post">
+        <button type="submit">Export to Excel</button>
+    </form>
+</p>
